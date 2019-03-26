@@ -6,18 +6,12 @@ using namespace std;
 
 int main(){
 	
-	Board chess;
+	Board spaces;
 	
-	chess.setup();
-	chess.print();
-	
-	
- 
-
-	cout << "Give me an x cord (1-8): " << endl;
-	
-	cout << "Give me a y cord (1-8): " << endl;
-	
+	spaces.setup();
+	spaces.print();
+	spaces.choice();
+	// spaces.reveal();
 
 	return 0;
 }
